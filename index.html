@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mellem</title>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- intro -->
+        <div class="intro">
+            <div class="intro-inner">
+                <svg viewBox="0 0 218 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-logos ui-fragments-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M94.4009 0H102.857V40H94.4009V0ZM54.6544 22.1428C54.6544 31.659 61.659 37.3732 70 37.3732C76.3364 37.3732 82.6728 34.47 84.424 28.0184H76.3134C75.1383 30.2995 72.6959 31.129 70.2535 31.129C66.4747 31.129 63.5254 28.6405 63.0876 24.47H84.7005V22.7419C84.7005 12.6267 77.9724 7.18891 69.8157 7.18891C61.8664 7.18891 54.6544 12.9262 54.6544 22.1428ZM76.2443 19.1474H63.0645C63.5023 15.4838 66.2903 13.364 69.7235 13.364C73.341 13.364 75.9447 15.6451 76.2443 19.1474ZM0 36.7051H8.43318V21.0599C8.43318 16.5438 10.9447 14.4931 13.6636 14.4931C16.4516 14.4931 18.5023 16.3134 18.5023 20.0461V36.7281H26.9355V21.0599C26.9355 16.6129 29.3779 14.4931 32.0968 14.4931C34.8848 14.4931 36.9355 16.3134 36.9355 20.0461V36.7051H45.3917V18.4793C45.3917 10.3687 40.4378 7.25809 34.7696 7.25809C30.6912 7.25809 27.2581 8.87099 25.3687 11.9355C23.4332 8.64058 20.0922 7.25809 16.7051 7.25809C12.9954 7.25809 9.93088 8.7097 8.15668 11.3134V7.92629H0V36.7051ZM122.673 0H114.217V40H122.673V0ZM147.673 37.3732C139.332 37.3732 132.327 31.659 132.327 22.1428C132.327 12.9262 139.539 7.18891 147.489 7.18891C155.645 7.18891 162.373 12.6267 162.373 22.7419V24.47H140.783C141.221 28.6405 144.171 31.129 147.949 31.129C150.392 31.129 152.834 30.2995 154.009 28.0184H162.12C160.323 34.47 154.009 37.3732 147.673 37.3732ZM140.714 19.1474H153.894C153.618 15.6451 150.991 13.364 147.396 13.364C143.94 13.364 141.175 15.4838 140.714 19.1474ZM172.051 36.7051H180.484V21.0599C180.484 16.5438 182.995 14.4931 185.714 14.4931C188.502 14.4931 190.553 16.3134 190.553 20.0461V36.7281H198.986V21.0599C198.986 16.6129 201.429 14.4931 204.148 14.4931C206.936 14.4931 208.986 16.3134 208.986 20.0461V36.7051H217.442V18.4793C217.442 10.3687 212.489 7.25809 206.82 7.25809C202.742 7.25809 199.309 8.87099 197.419 11.9355C195.484 8.64058 192.143 7.25809 188.756 7.25809C185.046 7.25809 181.982 8.7097 180.207 11.3134V7.92629H172.051V36.7051Z" fill="currentColor"></path></svg>
+            </div>
+        </div>
+        <!-- header -->
+        <header class="header">
+            <div class="header-inner hide">
+                <nav class="nav">
+                    <ul class="nav-item font-medium">
+                        <li>
+                            <button class="link">
+                                <span class="top-area">
+                                    Projects <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M10 4.16687V15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path><path d="M4.16669 10.0001H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                                </span>
+                                <span class="bottom-area">
+                                    Projects <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M10 4.16687V15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path><path d="M4.16669 10.0001H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <a href="" class="link">
+                                <span class="top-area">About us</span>
+                                <span class="bottom-area">About us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="link">
+                                <span class="top-area">Articles</span>
+                                <span class="bottom-area">Articles</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="link">
+                                <span class="top-area">FAQs</span>
+                                <span class="bottom-area">FAQs</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="main-logo">
+                    <a href="">
+                        <svg viewBox="0 0 218 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-logo -logos ui-fragments-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M94.4009 0H102.857V40H94.4009V0ZM54.6544 22.1428C54.6544 31.659 61.659 37.3732 70 37.3732C76.3364 37.3732 82.6728 34.47 84.424 28.0184H76.3134C75.1383 30.2995 72.6959 31.129 70.2535 31.129C66.4747 31.129 63.5254 28.6405 63.0876 24.47H84.7005V22.7419C84.7005 12.6267 77.9724 7.18891 69.8157 7.18891C61.8664 7.18891 54.6544 12.9262 54.6544 22.1428ZM76.2443 19.1474H63.0645C63.5023 15.4838 66.2903 13.364 69.7235 13.364C73.341 13.364 75.9447 15.6451 76.2443 19.1474ZM0 36.7051H8.43318V21.0599C8.43318 16.5438 10.9447 14.4931 13.6636 14.4931C16.4516 14.4931 18.5023 16.3134 18.5023 20.0461V36.7281H26.9355V21.0599C26.9355 16.6129 29.3779 14.4931 32.0968 14.4931C34.8848 14.4931 36.9355 16.3134 36.9355 20.0461V36.7051H45.3917V18.4793C45.3917 10.3687 40.4378 7.25809 34.7696 7.25809C30.6912 7.25809 27.2581 8.87099 25.3687 11.9355C23.4332 8.64058 20.0922 7.25809 16.7051 7.25809C12.9954 7.25809 9.93088 8.7097 8.15668 11.3134V7.92629H0V36.7051ZM122.673 0H114.217V40H122.673V0ZM147.673 37.3732C139.332 37.3732 132.327 31.659 132.327 22.1428C132.327 12.9262 139.539 7.18891 147.489 7.18891C155.645 7.18891 162.373 12.6267 162.373 22.7419V24.47H140.783C141.221 28.6405 144.171 31.129 147.949 31.129C150.392 31.129 152.834 30.2995 154.009 28.0184H162.12C160.323 34.47 154.009 37.3732 147.673 37.3732ZM140.714 19.1474H153.894C153.618 15.6451 150.991 13.364 147.396 13.364C143.94 13.364 141.175 15.4838 140.714 19.1474ZM172.051 36.7051H180.484V21.0599C180.484 16.5438 182.995 14.4931 185.714 14.4931C188.502 14.4931 190.553 16.3134 190.553 20.0461V36.7281H198.986V21.0599C198.986 16.6129 201.429 14.4931 204.148 14.4931C206.936 14.4931 208.986 16.3134 208.986 20.0461V36.7051H217.442V18.4793C217.442 10.3687 212.489 7.25809 206.82 7.25809C202.742 7.25809 199.309 8.87099 197.419 11.9355C195.484 8.64058 192.143 7.25809 188.756 7.25809C185.046 7.25809 181.982 8.7097 180.207 11.3134V7.92629H172.051V36.7051Z" fill="currentColor"></path></svg>
+                    </a>
+                </div>
+                <ul class="side-menu font-medium">
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Fr</a></li>
+                </ul>
+            </div>
+            <div class="common-menu">
+                <div class="text-wrap">
+                    <ul class="text-area">
+                        <li>
+                            <a href="">
+                                <span class="menu-list01">Ville-Marie</span>
+                                <span class="menu-list02">Montréal </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="menu-list01">Manoir-des-Trembles</span>
+                                <span class="menu-list02">Gatineau </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="menu-list01">Grace Dart</span>
+                                <span class="menu-list02">Montréal </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="img-area">
+                    <li class="first" >
+                        <div class="img-inner">
+                            <div class="left">
+                            </div>
+                            <div class="right">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-inner">
+                            <div class="left">
+                                <figure>
+                                    <img src="./assets/images/menu01.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="right">
+                                <figure>
+                                    <img src="./assets/images/menu01.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>                            
+                    <li>
+                        <div class="img-inner">
+                            <div class="left">
+                                <figure>
+                                    <img src="./assets/images/menu02.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="right">
+                                <figure>
+                                    <img src="./assets/images/menu02.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>                            
+                    <li>
+                        <div class="img-inner">
+                            <div class="left">
+                                <figure>
+                                    <img src="./assets/images/menu03.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="right">
+                                <figure>
+                                    <img src="./assets/images/menu03.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>                            
+                </ul>
+            </div>
+        </header>
+        <main class="container">
+            <!-- visual -->
+            <section class="sec-visual">
+                <div class="visual-inner">
+                    <div class="visual-area">
+                        <div class="logo-area">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 153"><path fill-rule="evenodd" clip-rule="evenodd" d="M275.53 75.55c0 48.08 35.31 76.95 77.36 76.95 31.94 0 63.89-14.67 72.72-47.26h-40.9c-5.92 11.52-18.23 15.71-30.54 15.71-19.05 0-33.92-12.57-36.13-33.64H427v-8.73C427 27.48 393.08 0 351.96 0c-40.07 0-76.43 28.99-76.43 75.55Zm108.84-15.13h-66.44c2.2-18.51 16.26-29.22 33.57-29.22 18.23 0 31.36 11.52 32.87 29.22ZM0 149.12h42.51V70.08c0-22.82 12.67-33.18 26.37-33.18 14.06 0 24.4 9.2 24.4 28.06v84.28h42.51V70.08c0-22.47 12.31-33.18 26.02-33.18 14.05 0 24.4 9.2 24.4 28.06v84.16h42.62V57.04c0-40.97-24.97-56.69-53.55-56.69-20.56 0-37.86 8.15-47.39 23.63C118.13 7.33 101.3.35 84.22.35c-18.7 0-34.16 7.33-43.1 20.49V3.73H0v145.4ZM933 75.18c0 47.85 35.14 76.58 76.98 76.58 31.79 0 63.47-14.6 72.48-47.04h-40.69c-5.89 11.47-18.15 15.64-30.4 15.64-18.96 0-33.75-12.5-35.95-33.48h108.31V78.2c0-50.86-33.75-78.2-74.67-78.2C969.18 0 933 28.85 933 75.18Zm108.2-15.06h-66.12c2.3-18.42 16.18-29.07 33.52-29.07 18.03 0 31.21 11.46 32.6 29.07Zm91.08 88.28h42.31V69.74c0-22.7 12.6-33.02 26.24-33.02 13.99 0 24.27 9.15 24.27 27.92v83.87h42.31V69.74c0-22.36 12.25-33.02 25.89-33.02 13.99 0 24.28 9.15 24.28 27.92v83.76H1360V56.76C1360 16 1335.15.35 1306.71.35c-20.46 0-37.68 8.1-47.16 23.51C1249.84 7.3 1233.08.35 1216.09.35c-18.61 0-33.99 7.3-42.89 20.39V3.7h-40.92V148.4Z" fill="currentColor"></path></svg>
+                        </div>
+                        <div class="text-area">
+                            <h1 class="blind">mellon</h1>
+                            <div class="line">
+                                <p class="text-line01">Welcome to the age of the tenants</p>
+                            </div>
+                            <div class="line2">
+                                <p class="text-line02">At Mellem, we're reinventing the rental market to create spaces where people and the environment can flourish. And it shows in everything we do.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vis-item">
+                        <ul class="bg-item">
+                            <li>
+                                <div class="bg-inner">
+                                    <figure>
+                                        <img src="./assets/images/vis01.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="right">
+                                <div class="bg-inner">
+                                    <figure>
+                                        <img src="./assets/images/vis01.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="effect-none">
+                                <div class="bg-inner">
+                                    <figure>
+                                        <img src="./assets/images/vis02.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="effect-none right">
+                                <div class="bg-inner">
+                                    <figure>
+                                        <img src="./assets/images/vis02.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bg-inner">
+                                    <figure>
+                                        <img src="./assets/images/vis03.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="right">
+                                <div class="bg-inner">
+                                    <figure>
+                                        <img src="./assets/images/vis03.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>                
+                    </div>
+                </div>
+            </section>
+            <!-- about slide -->
+            <section class="sec-slide">
+                <h2 class="blind">about slide</h2>
+                <div class="swiper slide-wrap">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <div class="img-area">
+                                    <div class="left">
+                                        <figure>
+                                        <img src="./assets/images/slide01.jpg" alt=""> 
+                                        </figure>
+                                    </div>
+                                    <div class="right">
+                                        <figure>
+                                            <img src="./assets/images/slide01.jpg" alt=""> 
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="txt-area">
+                                    <h3><span>Community</span></h3>
+                                    <div class="desc">
+                                        <div class="line">
+                                            <p>The love of</p>
+                                        </div>
+                                        <div class="line">
+                                            <p>enjoying life</p>
+                                        </div>
+                                        <div class="line">
+                                            <p><strong>together</strong> is</p>
+                                        </div>
+                                        <div class="line">
+                                            <p>timeless</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <div class="img-area">
+                                    <div class="left">
+                                        <figure>
+                                        <img src="./assets/images/slide02.jpg" alt=""> 
+                                        </figure>
+                                    </div>
+                                    <div class="right">
+                                        <figure>
+                                            <img src="./assets/images/slide02.jpg" alt=""> 
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="txt-area">
+                                    <h3><span>Architecture</span></h3>
+                                    <div class="desc">
+                                        <div class="line">
+                                            <p>Meticulously</p>
+                                        </div>
+                                        <div class="line">
+                                            <p><strong>designed</strong> and</p>
+                                        </div>
+                                        <div class="line">
+                                            <p>detailed spaces</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <div class="img-area">
+                                    <div class="left">
+                                        <figure>
+                                        <img src="./assets/images/slide03.jpg" alt=""> 
+                                        </figure>
+                                    </div>
+                                    <div class="right">
+                                        <figure>
+                                            <img src="./assets/images/slide03.jpg" alt=""> 
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="txt-area">
+                                    <h3><span>Amenities</span></h3>
+                                    <div class="desc">
+                                        <div class="line">
+                                            <p>An <strong>all-inclusive</strong> all</p>
+                                        </div>
+                                        <div class="line">
+                                            <p>right in the heart</p>
+                                        </div>
+                                        <div class="line">
+                                            <p>of your city</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-area">
+                    <button class="btn-play hide"><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M2.91675 1.75L11.0834 7L2.91675 12.25V1.75Z" fill="currentColor"></path></svg></button>
+                    <button class="btn-stop"><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M5.6001 2.1001H2.1001V11.9001H5.6001V2.1001Z" fill="currentColor"></path><path d="M11.8999 2.1001H8.3999V11.9001H11.8999V2.1001Z" fill="currentColor"></path></svg></button>
+                </div>
+            </section>
+            <!-- project -->
+            <section class="sec-project">
+                <div class="title-area">
+                    <div class="left">
+                        <div class="line-area">
+                            <h2 class="text01">Exceptional projects.</h2>
+                        </div>
+                        <div class="line-area">
+                            <h2 class="text02">Exceptional tenants.</h2>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="line-area">
+                            <p>Discover residences that welcome you with a unique rental experience in Québec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-area">
+                    <ul class="project-inner">
+                        <li>
+                            <div class="project-item">
+                                <a href="#">
+                                    <span class="label">Spring 2024</span>
+                                    <div class="btn-area">
+                                        <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg>
+                                    </div>
+                                    <div class="img-area">
+                                        <figure>
+                                            <img src="./assets/images/pj01.jpg" alt="">
+                                        </figure>
+                                    </div>                                
+                                    <figure>
+                                        <img src="./assets/images/pj-hover01.jpg" alt="">
+                                    </figure>
+                                </a>
+                                <div class="desc">
+                                    <div class="left">
+                                        <h3>Ville-Marie</h3>
+                                        <span>Montréal</span>
+                                    </div>
+                                    <div class="right">
+                                        <p>Live in the heart of the city, in a complex that reflects your life. A place to grow fruit and vegetables, and share great books with friends. This is where everything is close to home.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>                    
+                        <li>
+                            <div class="project-item">
+                                <a href="#">
+                                    <span class="label">Fall 2024</span>
+                                    <div class="btn-area">
+                                        <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg>
+                                    </div>
+                                    <div class="img-area">
+                                        <figure>
+                                            <img src="./assets/images/pj02.jpg" alt="">
+                                        </figure>
+                                    </div>                                
+                                    <figure>
+                                        <img src="./assets/images/pj-hover02.jpg" alt="">
+                                    </figure>
+                                </a>
+                                <div class="desc">
+                                    <div class="left">
+                                        <h3>Manoir-des-Trembles</h3>
+                                        <span>Gatineau</span>
+                                    </div>
+                                    <div class="right">
+                                        <p>Discover an urban oasis in the heart of a quiet neighbourhood, close to public transportation and surrounded by bicycle paths. It’s a place where everyone can take time for themselves in their own way.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-item">
+                                <a href="#">
+                                    <span class="label">Spring 2025</span>
+                                    <div class="btn-area">
+                                        <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg>
+                                    </div>
+                                    <div class="img-area">
+                                        <figure>
+                                            <img src="./assets/images/pj03.jpg" alt="">
+                                        </figure>
+                                    </div>                                
+                                    <figure>
+                                        <img src="./assets/images/pj-hover03.jpg" alt="">
+                                    </figure>
+                                </a>
+                                <div class="desc">
+                                    <div class="left">
+                                        <h3>Grace Dart</h3>
+                                        <span>Montréal</span>
+                                    </div>
+                                    <div class="right">
+                                        <p>Living at Mellem Grace Dart means living the urban life of Sherbrooke Street to the fullest, in an environment that blends the charm of the former Grace Dart Hospital's heritage with the modernity of a new building.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>                    
+                    </ul>
+                </div>
+            </section>
+            <!-- discover -->
+            <section class="sec-age">
+                <div class="inner">
+                    <div class="text-area">
+                        <div class="line">
+                            <h2 class="text01">Welcome to the</h2>
+                        </div>
+                        <div class="line">
+                            <h2 class="text02">age of the tenants</h2>
+                        </div>
+                        <p>This is the era when everyone can blossom and create connections. In their own way, at their own pace. Where each space is in harmony with the environment, the common good and the community.</p>
+                        <div class="btn-wrap">
+                            <a href="" class="btn-area">
+                                <span class="top-area">Discover Mellem <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                                <span class="bottom-area">Discover Mellem <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-area">
+                        <div class="img-inner left">                        
+                            <figure>
+                                <img src="./assets/images/age.jpg" alt="">
+                            </figure>                        
+                        </div>
+                        <div class="img-inner right">                        
+                            <figure>
+                                <img src="./assets/images/age.jpg" alt="">
+                            </figure>                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- story -->
+            <section class="sec-share">
+                <div class="title">
+                    <div class="line">
+                        <h2>Stories to share</h2>
+                    </div>
+                    <div>
+                        <a href="">
+                            <span class="top-area">
+                                Every story <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg>
+                            </span>
+                            <span class="bottom-area">
+                                Every story <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="share-item">
+                    <article class="share-inner01">
+                        <a href="#">
+                            <div class="left">
+                                <figure>
+                                    <img src="./assets/images/story01.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="middle">
+                                <strong class="middle-text">
+                                    A model unit with local flavour for Mellem Ville-Marie - Let's take a tour!
+                                </strong>
+                                <div>
+                                    <span class="label">Sustainable development</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p class="right-text">As you no doubt already know, we like to add local flavour to everything at Mellem. That means working with homegrown businesses when the time came to build the model unit for our Ville-Marie project!</p>
+                                <button class="btn-area"><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></button>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="share-inner02">
+                        <a href="#">
+                            <div class="left">
+                                <figure>
+                                    <img src="./assets/images/story02.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="middle">
+                                <strong class="middle-text">
+                                    A model unit with local flavour for Mellem Ville-Marie - Let's take a tour!
+                                </strong>
+                                <div>
+                                    <span class="label">Sustainable development</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p class="right-text">As you no doubt already know, we like to add local flavour to everything at Mellem. That means working with homegrown businesses when the time came to build the model unit for our Ville-Marie project!</p>
+                                <button class="btn-area"><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></button>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="share-inner03">
+                        <a href="#">
+                            <div class="left">
+                                <figure>
+                                    <img src="./assets/images/story03.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="middle">
+                                <strong class="middle-text">
+                                    A model unit with local flavour for Mellem Ville-Marie - Let's take a tour!
+                                </strong>
+                                <div>
+                                    <span class="label">Sustainable development</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p class="right-text">As you no doubt already know, we like to add local flavour to everything at Mellem. That means working with homegrown businesses when the time came to build the model unit for our Ville-Marie project!</p>
+                                <button class="btn-area"><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></button>
+                            </div>
+                        </a>
+                    </article>                
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <h2 class="blind">mellem footer</h2>
+            <div class="left">
+                <div class="content">
+                    <h3>Interested in the Mellem lifestyle? Subscribe to our newsletters.</h3>
+                    <form method="post" action="" class="contact">
+                        <fieldset>
+                            <legend class="blind">contact</legend>
+                            <div class="checkbox">
+                                <label for="ville-marie">
+                                    <input type="checkbox" id="ville-marie">
+                                    <span class="box"><svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="absolute-center -icons ui-fragments-svg"><path d="M2 5.5L5 8.5L10 2" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                                    <span class="label">Ville-Marie</span>
+                                </label>
+                                <label for="manoir-des-trembles">
+                                    <input type="checkbox" id="manoir-des-trembles">
+                                    <span class="box"><svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="absolute-center -icons ui-fragments-svg"><path d="M2 5.5L5 8.5L10 2" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                                    <span class="label">Manoir-des-Trembles</span>
+                                </label>
+                                <label for="grace-dart">
+                                    <input type="checkbox" id="grace-dart">
+                                    <span class="box"><svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="absolute-center -icons ui-fragments-svg"><path d="M2 5.5L5 8.5L10 2" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                                    <span class="label">Grace Dart</span>
+                                </label>
+                            </div>
+                            <div class="email">
+                                <input id="newsletter-subscribe" type="email" placeholder="Your email address" class="email-input">
+                                <button type="submit"><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></button>
+                                <div class="underline"></div>
+                            </div>
+                            <label for="newsletter-consent" class="agree-check">
+                                <input type="checkbox" id="newsletter-consent">
+                                <span class="box"><svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="absolute-center -icons ui-fragments-svg"><path d="M2 5.5L5 8.5L10 2" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                                <span class="label">By checking this box, I confirm that I have read and agree to <a href="">the terms of use</a></span>
+                            </label>
+                        </fieldset>
+                    </form>
+                    <ul class="social-area">
+                        <li><a href=""><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -illustrative -socials ui-fragments-svg"><path d="M12.0004 2.3999C6.69789 2.3999 2.40039 6.6974 2.40039 11.9999C2.40039 16.7924 5.91039 20.7637 10.5004 21.4837V14.7749H8.06289V11.9999H10.5004V9.8849C10.5004 7.47928 11.9329 6.1499 14.1266 6.1499C15.1766 6.1499 16.2754 6.3374 16.2754 6.3374V8.6999H15.0641C13.8716 8.6999 13.5004 9.44053 13.5004 10.1999V11.9999H16.1629L15.7373 14.7749H13.5004V21.4837C18.0904 20.7637 21.6004 16.7924 21.6004 11.9999C21.6004 6.6974 17.3029 2.3999 12.0004 2.3999Z" fill="currentColor"></path></svg></a></li>
+                        <li><a href=""><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -illustrative -socials ui-fragments-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 5.1142C14.2424 5.1142 14.5084 5.1226 15.3946 5.1632C17.671 5.2668 18.7343 6.3469 18.8379 8.6065C18.8785 9.492 18.8862 9.758 18.8862 12.0008C18.8862 14.2443 18.8778 14.5096 18.8379 15.3951C18.7336 17.6526 17.6731 18.7348 15.3946 18.8384C14.5084 18.879 14.2438 18.8874 11.9996 18.8874C9.75681 18.8874 9.49081 18.879 8.60531 18.8384C6.32331 18.7341 5.26561 17.6491 5.16201 15.3944C5.12141 14.5089 5.11301 14.2436 5.11301 12.0001C5.11301 9.7573 5.12211 9.492 5.16201 8.6058C5.26631 6.3469 6.32681 5.2661 8.60531 5.1625C9.49151 5.1226 9.75681 5.1142 11.9996 5.1142ZM11.9996 3.6001C9.71831 3.6001 9.43271 3.6099 8.53671 3.6505C5.48611 3.7905 3.79071 5.4831 3.65071 8.5365C3.60941 9.4332 3.59961 9.7188 3.59961 12.0001C3.59961 14.2814 3.60941 14.5677 3.65001 15.4637C3.79001 18.5143 5.48261 20.2097 8.53601 20.3497C9.43271 20.3903 9.71831 20.4001 11.9996 20.4001C14.2809 20.4001 14.5672 20.3903 15.4632 20.3497C18.511 20.2097 20.2106 18.5171 20.3485 15.4637C20.3898 14.5677 20.3996 14.2814 20.3996 12.0001C20.3996 9.7188 20.3898 9.4332 20.3492 8.5372C20.212 5.4894 18.5173 3.7912 15.4639 3.6512C14.5672 3.6099 14.2809 3.6001 11.9996 3.6001ZM11.9996 7.6867C9.61751 7.6867 7.68621 9.618 7.68621 12.0001C7.68621 14.3822 9.61751 16.3142 11.9996 16.3142C14.3817 16.3142 16.313 14.3829 16.313 12.0001C16.313 9.618 14.3817 7.6867 11.9996 7.6867ZM11.9996 14.8001C10.4533 14.8001 9.19961 13.5471 9.19961 12.0001C9.19961 10.4538 10.4533 9.2001 11.9996 9.2001C13.5459 9.2001 14.7996 10.4538 14.7996 12.0001C14.7996 13.5471 13.5459 14.8001 11.9996 14.8001ZM16.4838 6.5086C15.9266 6.5086 15.4751 6.9601 15.4751 7.5166C15.4751 8.0731 15.9266 8.5246 16.4838 8.5246C17.0403 8.5246 17.4911 8.0731 17.4911 7.5166C17.4911 6.9601 17.0403 6.5086 16.4838 6.5086Z" fill="currentColor"></path></svg></a></li>
+                        <li><a href=""><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -illustrative -socials ui-fragments-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20.4 20.3701H16.9195V14.9218C16.9195 13.623 16.896 11.9525 15.1095 11.9525C13.2982 11.9525 13.0217 13.3674 13.0217 14.8292V20.3701H9.54511V9.16837H12.8822V10.6993H12.9291C13.3933 9.81908 14.5305 8.8906 16.2244 8.8906C19.7493 8.8906 20.4 11.2105 20.4 14.2268V20.3701ZM5.61864 7.63742C4.50107 7.63742 3.59998 6.73372 3.59998 5.61745C3.59998 4.5038 4.50107 3.6001 5.61864 3.6001C6.73229 3.6001 7.6373 4.5038 7.6373 5.61745C7.6373 6.73372 6.73229 7.63742 5.61864 7.63742ZM3.87643 20.3701H7.36084V9.16837H3.87643V20.3701Z" fill="currentColor"></path></svg></a></li>
+                        <li><a href=""><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -illustrative -socials ui-fragments-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.0504 3.59869L12.5654 3.6009C14.3459 3.61222 19.8176 3.68017 21.3768 4.08788C22.4093 4.35537 23.2229 5.14813 23.4987 6.15434C23.9335 7.73387 23.9915 10.801 23.9992 11.5908V11.9691C23.9915 12.7592 23.9335 15.8274 23.4987 17.4069C23.2229 18.4131 22.4093 19.2045 21.3768 19.4734C19.6839 19.916 13.3792 19.9582 12.1937 19.9622H11.8079C10.6224 19.9582 4.31751 19.916 2.6234 19.4734C1.59087 19.2045 0.777309 18.4131 0.501504 17.4069C0.0666827 15.8274 0.00870671 12.7592 0.000976562 11.9691V11.5908C0.00870671 10.801 0.0666827 7.73387 0.501504 6.15434C0.777309 5.14813 1.59087 4.35537 2.6234 4.08788C4.18376 3.68017 9.6556 3.61222 11.4362 3.6009L11.9512 3.59869C11.9675 3.59866 11.9799 3.59865 11.9882 3.59864L12.0008 3.59863C12.0008 3.59863 12.0178 3.59863 12.0504 3.59869ZM9.54571 8.32779V15.234L15.8185 11.7802L9.54571 8.32779Z" fill="currentColor"></path></svg></a></li>
+                    </ul>                
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div class="content-in">
+                        <h3>Would you like to speak to us? We’re listening.</h3>
+                        <a href="" class="btn-area">
+                            <span class="top-area">Contact us <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                            <span class="bottom-area">Contact us <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M4.16669 10.0001H15" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path><path d="M10 4.16687L15.8333 10.0002L10 15.8335" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></span>
+                        </a>
+                    </div>
+                    <ul class="link-area">
+                        <li><a href="">Website privacy policy</a></li>
+                        <li><a href="">Terms and conditions</a></li>
+                        <li><a href="">Maître Carré <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="-icon -icons ui-fragments-svg"><path d="M5.83331 14.1667L13.5 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path><path d="M5.83331 5.83337H14.1666V14.1667" stroke="currentColor" stroke-width="2" stroke-linecap="square"></path></svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

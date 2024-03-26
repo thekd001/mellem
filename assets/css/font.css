@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Beausite Classic Regular";
+    src: url('../fonts/Beausite Classic Regular.woff') format('woff');
+    font-weight: 400;
+ }
+ @font-face {
+    font-family: "Beausite Classic Medium";
+    src: url('../fonts/Beausite Classic Medium.woff') format('woff');
+    font-weight: 500;
+ }
